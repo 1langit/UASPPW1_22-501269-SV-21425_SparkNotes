@@ -1,0 +1,81 @@
+/* ----------------------------- index */
+
+.bg {
+    position: absolute;
+    height: 340px;
+    left: 0;
+    transform: translateY(20px);
+}
+
+.bg1 {
+    position: absolute;
+    height: 50px;
+    transform: translateY(-50px);
+}
+
+
+/* ----------------------------- login */
+
+.form-control {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2rem;
+    line-height: 60px;
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 420px;
+}
+
+.signup {
+    position: absolute;
+    width: 420px;
+    transform: translateX(400px);
+}
+
+.wrapper .login {
+    transition: transform 0.1s ease;
+    transform: translateX(0) scaleX(1);
+}
+.wrapper.active .login {
+    transform: translateX(-400px) scaleX(0);
+}
+
+.wrapper .signup {
+    transform: translateX(400px) scaleX(0);
+}
+.wrapper.active .signup {
+    transition: transform 0.1s ease;
+    transform: translateX(0) scaleX(1);
+}
+
+
+
+/* ----------------------------- dashboard */
+
+/* .nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-left: ;
+} */
+
+.normal {
+    --bs-gutter-x: 0;
+}
+
+.note-clamp {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+}
