@@ -15,7 +15,7 @@ SparkNotes adalah website catatan yang berfungsi untuk menulis catatan, to-do li
 Website ini menjawab 4 kriteria penilaian yaitu:
 
 1. Desain rapi mengikuti kaidah atau prinsip desain
-Ukuran, warna, kontras antara teks tengan background, tata letak website ini dapat terlihat dengan jelas. Website ini juga memberi feedback atas aksi yang dilakukan oleh pengguna contohnya pada preview catatan. Pada landing page website ini, pengguna diarahkan untuk melakukan sign up kemudian login dan membuat catatan. Interfece untuk CTA dan navigasi terbilang konsisten, Serta mempertimbangkan tindakan pengguna dan mencegah tindakan yang tidak diinginkan.
+Ukuran, warna, kontras antara teks tengan background, tata letak website ini dapat terlihat dengan jelas. Website ini juga memberi feedback atas aksi yang dilakukan oleh pengguna contohnya pada preview catatan. Pada landing page website ini, pengguna diarahkan untuk melakukan signup kemudian login dan membuat catatan. Interfece untuk CTA dan navigasi terbilang konsisten, Serta mempertimbangkan tindakan pengguna dan mencegah tindakan yang tidak diinginkan.
 
 2. Website responsive, dapat diakses melalui device: Mobile, Tablet dan Laptop
 
@@ -27,6 +27,8 @@ Pada potongan kode dari `index.html` ini, kolom tersebut akan memiliki besar 7 g
 
 3. Direct feedback ke pengguna website
 Setelah pengguna menyimpan catatan, preview catatan tersebut akan langsung berubah pada daftar catatan sesuai yang diinputkan oleh pengguna.
+![Screenshot 2023-06-20 113243](https://github.com/1langit/UASPPW1_22-501269-SV-21425_SparkNotes/assets/126531063/2ff3afc2-0442-4fbc-b4a3-e1497447b6bb)
 
-4.  Konten dinamis dari database
-Setiap akun dan catatan yang dibuat pengguna akan tersimpan ke dalam basis data. Catatan tersebut nantinya dapat dilihat kembali menggunakan akun yang membuat catatan tersebut.
+
+5.  Konten dinamis dari database
+Setiap akun dan catatan yang dibuat pengguna akan tersimpan ke dalam basis data. Catatan tersebut nantinya dapat dilihat kembali menggunakan akun yang membuat catatan tersebut. Dengan kata lain, jika id_usr sebagai foreign key pada tabel catatan sama dengan user yang login saat ini, catatan tersebut akan ditampilkan.
