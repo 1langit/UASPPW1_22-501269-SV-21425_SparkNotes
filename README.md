@@ -24,7 +24,7 @@ Menggunakan class yang disediakan bootstrap, website ini dibuat responsif sesuai
 ```
 
 3. Direct feedback ke pengguna website
-Setelah pengguna menyimpan catatan, preview catatan tersebut akan langsung berubah pada daftar catatan sesuai yang diinputkan oleh pengguna.
+Setelah pengguna menyimpan catatan, preview catatan tersebut akan langsung berubah pada daftar catatan sesuai yang diinputkan oleh pengguna. Pengguna juga akan diberi notifikasi konfirmasi ketika akan menghapus catatan.
 ![Screenshot 2023-06-20 113243](https://github.com/1langit/UASPPW1_22-501269-SV-21425_SparkNotes/assets/126531063/2ff3afc2-0442-4fbc-b4a3-e1497447b6bb)
 
 
